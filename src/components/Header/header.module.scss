@@ -1,0 +1,15 @@
+.menu-item-hover:after {
+  content: '';
+  display: block;
+  position: relative;
+  right: -50%;
+  width:0;
+  height: 2px;
+  transition: all 0.3s;
+  border-radius: 15px;
+}
+.menu-item-hover:hover:after {
+  right: 0;
+  width: 100%;
+}
+
